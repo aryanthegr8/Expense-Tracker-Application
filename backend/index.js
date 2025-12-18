@@ -16,9 +16,11 @@ import mergedResolvers from "./resolvers/index.js";
 import mergedTypeDefs from "./typeDefs/index.js";
 
 import { connectDB } from "./db/connectDB.js";
-import { Mongoose } from "mongoose";
+import { configurePassport } from "./passport/passport.config.js";
 
 dotenv.config();
+configurePassport();
+
 const app = express();
 const httpServer = http.createServer(app);
 
