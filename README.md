@@ -1,4 +1,4 @@
-"SpendWise – Spend wisely, track wisely"
+# SpendWise – Spend wisely, track wisely
 
 SpendWise is a full-stack expense tracking web application built with the MERN stack and GraphQL. It allows users to log and categorize their transactions — savings, expenses, and investments — and visualize their financial breakdown through an interactive donut chart. Secured with JWT authentication and deployed end-to-end on Vercel.
 
